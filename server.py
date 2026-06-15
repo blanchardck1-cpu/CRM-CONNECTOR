@@ -38,7 +38,8 @@ client = FollowUpBossClient()
 
 MESSAGE_TEMPLATE = (
     "Hey {first_name}! I saw you inquired about {property}. "
-    "I'd love to help you schedule a tour — when works best for you?"
+    "My name is Charles Blanchard with the Rarity Real Estate Team — "
+    "I'd love to help you schedule a tour! When works best for you?"
 )
 DELAY_SECONDS = 10 * 60  # 10 minutes
 B_LEAD_TAG = "b leads"
