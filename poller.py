@@ -33,7 +33,7 @@ log = logging.getLogger(__name__)
 
 POLL_INTERVAL = 5 * 60        # check every 5 minutes
 LOOKBACK_MINUTES = 10         # catch leads added in last 10 min
-B_LEAD_TAG = "b leads"
+B_LEAD_TAG = "b contact"
 CONTACTED_FILE = Path("contacted.json")  # tracks who already got a text
 
 MESSAGE_TEMPLATE = (
